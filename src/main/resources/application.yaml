@@ -8,11 +8,8 @@ spring:
   datasource:
     username: ${DATABASE_USER:postgres}
     password: ${DATABASE_PASSWORD:postgres}
-    url: jdbc:postgresql://${DATABASE_URL:localhost:5432}/tasktracker
+    url: jdbc:postgresql://${DATABASE_URL:localhost:5433}/task-service
     driver-class-name: org.postgresql.Driver
     hikari:
       schema: task-service
       connection-timeout: 5000
-
-  jpa:
-    open-in-view: false

@@ -1,4 +1,4 @@
-package by.waitaty.tasktracker;
+package by.waitaty.taskservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
